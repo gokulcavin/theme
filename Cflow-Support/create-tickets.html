@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/materialdesignicons.min.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"/>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/dropzone.js"></script>
+        <link rel="stylesheet" href="css/dropzone.css">
+    </head>
+    <body>
+        <header class="normal-page">
+            <div class="container">
+                <div class="top-menu-container">
+                    <div class="top-logo">
+                        <h1>Cflow Support</h1>
+                        <img src="images/Cflow-Support-Logo-Small.png"/>
+                    </div>
+                    <div class="menu-top">
+                        <i class="mdi mdi-menu"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <aside>
+            <div class="menu-main-side">
+                <h2>Menu <i class="mdi mdi-close"></i></h2>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="my-ticket.html">My Ticket</a></li>
+                    <li><a href="create-tickets.html">New Ticket</a></li>
+                    <li><a href="ticket-view.html">View Ticket</a></li>
+                </ul>
+                <div class="app-link">
+                    <h1>Get cflow Mobile App</h1>
+                    <a href="https://itunes.apple.com/in/developer/cavintek/id1071776577"><img src="images/appStoreBadge-s.png"/></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.cavintek.cflow"><img src="images/Google-Paly-Button.png"/></a>
+                </div>
+            </div>
+        </aside>
+        <section class="sect-hei">
+            <div class="container">
+                <div class="title-header">
+                    <a href="javascript:void(0)"><i class="mdi mdi-arrow-left"></i> <span>Back</span></a><h1><i class="mdi mdi-ticket"></i> Create New Ticket</h1>
+                </div>
+                <div class="tricket-container">
+                    <div class="ticket-creat-field">
+                        <span class="cr-ticket-label">Title</span>
+                        <input type="text" placeholder="Your query brief description">
+                    </div>
+                    <div class="ticket-creat-field">
+                        <span class="cr-ticket-label">Description</span>
+                        <textarea placeholder="Your query full description"></textarea>
+                    </div>
+                    <div class="ticket-creat-field">
+                        <span class="cr-ticket-label">Attach File Here</span>
+                        <form action="/upload-target" class="dropzone"></form>
+                    </div>
+                    <div class="ticket-creat-field">
+                        <a href="">Submit Ticket</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-left">
+                    <span>&copy; Cavintek <script type="text/javascript">
+                        var creditsyear = new Date();document.write(creditsyear.getFullYear());</script></span></div>
+            </div>
+        </footer>
+    </body>
+</html>
